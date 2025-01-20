@@ -20,7 +20,7 @@
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
+    max-width: 90%;
 }
 .nav-title{
     font-size: 1.5rem;
@@ -88,3 +88,85 @@
   .sponseors img{
     padding: 20px;
   }
+/* card styles */
+.card-design{
+    height: 480px;
+    width: 305px;
+    border: 1px solid purple;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   padding: 30px;
+}
+.card-name{
+    font-weight: 600px;
+    font-size: 1.75rem;
+    margin-bottom: 0px;
+}
+.card-price{
+    font-weight: 400;
+    font-size: 1.75rem;
+    margin-bottom: 2px;
+    /* margin-top: 0; */
+    /* line-height: 150%; */
+}
+.rating, fa fa-star checked{
+    color: #f6910c;
+}
+.rating-number{
+    font-size: 1.2.5rem;
+    font-weight: 600;
+    color: var(--secondary-color)
+}
+.card-description{
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: 1.8%;
+    /* line-height: 1.43%; */
+    color: var(--secondary-color);
+}
+.all-cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 0 180px;
+    gap: 0;
+    row-gap: 30px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+  /* media quary section */
+  @media screen and (max-width:576px) {
+    .navbar,
+    .nav-items {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .header-banner{
+        flex-direction: column-reverse;
+        margin-top: 50px;
+        margin-bottom: 5px;
+        gap: 5px;
+       
+    }
+    .banner-img{
+        max-width: 100%;
+        margin: 0 auto;
+    }
+   .banner{
+    justify-content: center;
+   }
+    .sponseors{
+        display:grid;
+        grid-template-columns: auto auto auto auto;
+        padding: 0px;
+      
+    }
+
+    }
+
+    /* for mediam device */
+    @media screen and (min-width: 576px) and (max-width:992px){
+
+    }
