@@ -63,7 +63,7 @@
     margin: 10px auto;
 }
 .btn-primary{
- background-color: var(--btn-color);
+    background-color: var(--btn-color);
     border-radius: 1px solid var(--btn-color);
     border-radius: 25px;
     color: white;
@@ -89,14 +89,24 @@
     padding: 20px;
   }
 /* card styles */
+.collection-heading {
+    text-align: center;
+    margin-bottom: 10px;
+    color: var(--primary-color);
+    font-weight: 500;
+    font-size: 1.55rem;
+    
+}
 .card-design{
     height: 480px;
     width: 305px;
-    border: 1px solid purple;
+    border: 1px solid rgb(218, 209, 218);
+    border-radius: 5px;
     display: flex;
     flex-direction: column;
     justify-content: center;
    padding: 30px;
+   box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.15);
 }
 .card-name{
     font-weight: 600px;
@@ -134,7 +144,62 @@
     justify-content: space-around;
     align-items: center;
 }
+/* seemore section */
+.see-more{
+    color: var(--btn-color);
+    font-weight: 700;
+    font-size: 1rem;
+    text-align: end;
+    margin-right: 220px;
+    margin-top: 40px;
+}
 
+/* features-part */
+.features-details{
+    justify-content: space-around;
+    align-items: center;
+   /* gap: 100px; */
+    max-width: 1110px;
+    max-height: 270px;
+    /* border: 1px solid blue; */
+    margin: 0 165px;
+}
+.feature-head{
+    font-weight: 700;
+    font-size: 2rem;
+    color: var(--primary-color)
+}
+.feature-text{
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--secondary-color);
+}
+.btn-2{background-color: var(--btn-color);
+    border-radius: 1px solid var(--btn-color);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 1rem;
+    margin: 4px 2px;
+    width: 200px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+/* footer area */
+.foot-area{
+    max-width: 100%;
+    background-color: rgb(28, 28, 65);
+    margin: 50px auto;
+}
+.footer-details{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+color: aliceblue;
+padding: 10px;
+}
 
   /* media quary section */
   @media screen and (max-width:576px) {
